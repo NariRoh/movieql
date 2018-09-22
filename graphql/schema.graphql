@@ -11,6 +11,14 @@ type Query {
     # 👆 a movie
 }
 
+type Mutation {
+    addMovie(name: String!, score: Int!): Movie!
+}
+
+# type Mutation {
+#     addMovie(name: String!, score: Int!): Movie!
+# } cut!
+
 # type Person {
 #     id: Int!
 #     name: String!
